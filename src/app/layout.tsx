@@ -17,11 +17,6 @@ export const metadata: Metadata = {
   title: "Tanmay Bhosale | Graphic Designer",
   description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
   metadataBase: new URL("https://tanmaybhosale.vercel.app"),
-  icons: {
-    icon: "/favicon.ico?v=4",
-    shortcut: "/favicon.ico?v=4",
-    apple: "/favicon.ico?v=4",
-  },
   openGraph: {
     title: "Tanmay Bhosale | Graphic Designer",
     description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
