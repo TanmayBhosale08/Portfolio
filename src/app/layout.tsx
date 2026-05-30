@@ -29,11 +29,20 @@ export const metadata: Metadata = {
     siteName: "Tanmay Bhosale Portfolio",
     locale: "en_US",
     type: "website",
+    images: [
+      {
+        url: "/opengraph-image.png?v=5",
+        width: 1200,
+        height: 630,
+        alt: "Tanmay Bhosale | Graphic Designer",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Tanmay Bhosale | Graphic Designer",
     description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
+    images: ["/opengraph-image.png?v=5"],
   },
 };
 
