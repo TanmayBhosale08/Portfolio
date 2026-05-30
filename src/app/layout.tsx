@@ -27,22 +27,13 @@ export const metadata: Metadata = {
     description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
     url: "https://tanmaybhosale.vercel.app",
     siteName: "Tanmay Bhosale Portfolio",
-    images: [
-      {
-        url: "/logo.png?v=3",
-        width: 512,
-        height: 512,
-        alt: "Tanmay Bhosale Logo",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Tanmay Bhosale | Graphic Designer",
     description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
-    images: ["/logo.png?v=3"],
   },
 };
 
