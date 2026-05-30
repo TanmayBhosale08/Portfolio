@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
   metadataBase: new URL("https://tanmaybhosale.vercel.app"),
   icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logo.png?v=2",
+    shortcut: "/logo.png?v=2",
+    apple: "/logo.png?v=2",
   },
   openGraph: {
     title: "Tanmay Bhosale | Graphic Designer",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Tanmay Bhosale Portfolio",
     images: [
       {
-        url: "/logo.png",
+        url: "/logo.png?v=2",
         width: 512,
         height: 512,
         alt: "Tanmay Bhosale Logo",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "Tanmay Bhosale | Graphic Designer",
     description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
-    images: ["/logo.png"],
+    images: ["/logo.png?v=2"],
   },
 };
 
