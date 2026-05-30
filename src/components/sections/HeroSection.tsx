@@ -20,7 +20,7 @@ const marqueeItems = [
 
 export default function HeroSection() {
   return (
-    <section id="home" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-black-main pt-20">
+    <section id="home" className="relative min-h-[100dvh] flex flex-col items-center justify-center overflow-hidden bg-black-main pt-20">
 
       {/* ── Animated geometric background ── */}
       <div className="absolute inset-0 z-0 pointer-events-none">

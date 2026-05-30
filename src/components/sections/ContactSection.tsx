@@ -86,7 +86,7 @@ export default function ContactSection() {
   };
 
   const inputClass = (field: keyof Errors) =>
-    `w-full bg-black-main border-b px-4 py-3 text-white focus:outline-none transition-colors font-montserrat placeholder:text-gray-600 ${errors[field] ? "border-red-500/60" : "border-white/20 focus:border-gold"
+    `w-full bg-black-main border-b px-4 py-3 text-white text-base md:text-sm focus:outline-none transition-colors font-montserrat placeholder:text-gray-600 ${errors[field] ? "border-red-500/60" : "border-white/20 focus:border-gold"
     }`;
 
   return (

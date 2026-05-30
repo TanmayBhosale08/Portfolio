@@ -17,7 +17,7 @@ interface SectionProps {
 
 export default function Section({ id, children, className }: SectionProps) {
   return (
-    <section id={id} className={cn("relative py-24 min-h-screen flex items-center overflow-hidden", className)}>
+    <section id={id} className={cn("relative py-24 min-h-[100dvh] flex items-center overflow-hidden", className)}>
       <div className="container mx-auto px-6 md:px-12 relative z-10 w-full">
         {children}
       </div>
