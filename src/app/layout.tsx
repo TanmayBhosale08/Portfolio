@@ -16,6 +16,34 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Tanmay Bhosale | Graphic Designer",
   description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
+  metadataBase: new URL("https://tanmaybhosale.vercel.app"),
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
+  openGraph: {
+    title: "Tanmay Bhosale | Graphic Designer",
+    description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
+    url: "https://tanmaybhosale.vercel.app",
+    siteName: "Tanmay Bhosale Portfolio",
+    images: [
+      {
+        url: "/logo.png",
+        width: 512,
+        height: 512,
+        alt: "Tanmay Bhosale Logo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Tanmay Bhosale | Graphic Designer",
+    description: "Personal portfolio of Tanmay Bhosale, Graphic Designer.",
+    images: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({
