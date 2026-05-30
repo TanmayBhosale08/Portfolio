@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #F5C400;
+  --color-black-pure: #000000;
+  --color-black-main: #050505;
+  --color-black-sec: #0A0A0A;
+  --color-black-panel: #111111;
+  --color-foreground: #ffffff;
+  
+  --font-anton: var(--font-anton);
+  --font-montserrat: var(--font-montserrat);
+}
+
+:root {
+  --background: #050505;
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Selection */
+::selection {
+  background: #F5C400;
+  color: #000000;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar for entire site and modals */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 196, 0, 0.4);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F5C400;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F5C400;
+}
+
+/* Base Headings Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-anton), sans-serif;
+  text-transform: uppercase;
+}
